@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: hwstatic
+Description: A Static Library Example
+Version: 1.0.0
+Cflags: -I${includedir}/hwstatic
+Libs: -L${libdir} libhwstatic.a
