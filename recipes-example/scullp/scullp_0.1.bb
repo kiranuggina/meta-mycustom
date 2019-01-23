@@ -11,10 +11,3 @@ SRC_URI = "file://scullp.c \
 "
 
 S = "${WORKDIR}"
-
-#do_install(){
-#	install -d ${D}${datadir}/kiran
-#	install -m 0755 scullp.ko ${D}${datadir}/kiran
-#}
-
-#FILES_${PN} = "${datadir}/kiran"

@@ -12,8 +12,3 @@ SRC_URI = "file://scull-char.c \
 "
 
 S = "${WORKDIR}"
-
-#do_install(){
-#	install -d ${D}${bindir}
-#	install -m 0755 test ${D}${bindir}
-#}
