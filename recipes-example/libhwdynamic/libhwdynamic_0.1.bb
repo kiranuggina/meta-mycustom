@@ -12,7 +12,7 @@ S = "${WORKDIR}"
 
 do_compile(){
 	${CC} ${LDFLAGS} -fPIC -g -c hwdynamic1.c hwdynamic2.c
-	${CC} ${LDFLAGS} -shared -Wl,-soname,libhwdynamic.so.1 -o libhwdynamic.so.1.0 *.c
+	${CC} ${LDFLAGS} -shared -fPIC -Wl,-soname,libhwdynamic.so.1 -o libhwdynamic.so.1.0 *.c
 }
 
 do_install(){
